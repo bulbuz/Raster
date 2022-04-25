@@ -1,4 +1,4 @@
-x+=4; //moves right
+x+=VEL; //moves right
 if(place_meeting(x,y,oWall)) //if inside wall:
 {
 	while(place_meeting(x,y,oWall))
