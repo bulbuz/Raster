@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sPlayer",
-    "path": "sprites/sPlayer/sPlayer.yy",
+    "name": "sPlayerFront",
+    "path": "sprites/sPlayerFront/sPlayerFront.yy",
   },
   "solid": false,
   "visible": true,
