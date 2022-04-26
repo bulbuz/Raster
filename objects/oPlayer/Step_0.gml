@@ -7,7 +7,7 @@ up = keyboard_check(ord("W"));
 down = keyboard_check(ord("S"));
 run = keyboard_check(vk_shift);
 
-SPEED = (run ? 4 : 3);
+SPEED = (run ? MAX_SPEED : NORMAL_SPEED);
 
 if(left and not right) 
 	velX = -SPEED;

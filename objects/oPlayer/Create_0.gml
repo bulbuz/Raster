@@ -1,7 +1,9 @@
 
 // Movement Variables
 // -----------------------
-SPEED = 3;
+MAX_SPEED = 5;
+NORMAL_SPEED = 3;
+SPEED = NORMAL_SPEED;
 velX = 0;
 velY = 0;
 
