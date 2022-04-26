@@ -1,7 +1,12 @@
 {
   "spriteId": {
+<<<<<<< HEAD
     "name": "sPlayerBack",
     "path": "sprites/sPlayerBack/sPlayerBack.yy",
+=======
+    "name": "sPlayerFront",
+    "path": "sprites/sPlayerFront/sPlayerFront.yy",
+>>>>>>> assets
   },
   "solid": false,
   "visible": true,
