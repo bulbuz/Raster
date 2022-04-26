@@ -1,9 +1,5 @@
-x+=sped;
-if(place_meeting(x,y,oWall))
+if(VELx < maxspeed)
 {
-	while(place_meeting(x,y,oWall))
-	{
-		x--;	
-	}
+	VELx++;	
 }
 

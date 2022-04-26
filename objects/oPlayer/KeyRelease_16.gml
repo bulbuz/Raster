@@ -1,1 +1,1 @@
-VEL = 4;
+maxspeed = 3;
