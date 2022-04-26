@@ -5,9 +5,9 @@ left = keyboard_check(ord("A"));
 right = keyboard_check(ord("D"));
 up = keyboard_check(ord("W"));
 down = keyboard_check(ord("S"));
-boost = keyboard_check(vk_shift);
+run = keyboard_check(vk_shift);
 
-SPEED = (boost ? 4 : 3)
+SPEED = (run ? 4 : 3);
 
 if(left and not right) 
 	velX = -SPEED;
