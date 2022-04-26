@@ -1,6 +1,1 @@
-<<<<<<< HEAD
-VEL = 4;
-=======
-/// @description Insert description here
-// You can write your code in this editor
->>>>>>> assets
+sped = 4;

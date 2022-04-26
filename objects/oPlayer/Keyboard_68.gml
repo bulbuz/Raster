@@ -1,8 +1,9 @@
-x+=VEL; //moves right
-if(place_meeting(x,y,oWall)) //if inside wall:
+x+=sped;
+if(place_meeting(x,y,oWall))
 {
 	while(place_meeting(x,y,oWall))
 	{
-		x-=1; //slowly back away...
+		x--;	
 	}
 }
+

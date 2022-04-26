@@ -1,9 +1,9 @@
-y-=VEL; //moves up
-sprite_index = sPlayerBack;
-if(place_meeting(x,y,oWall)) //if inside wall:
+y-=sped;
+if(place_meeting(x,y,oWall))
 {
 	while(place_meeting(x,y,oWall))
 	{
-		y+=1; //slowly back away...
+		y++;	
 	}
 }
+
