@@ -1,20 +1,25 @@
-x+=VELx; //moves horizontally
-if(place_meeting(x,y,oWall))
-{
-	while(place_meeting(x,y,oWall))
-	{
-		x+=sign(-VELx); //if colliding, move back
-	}
-}
-if(VELx > 0){VELx-=0.5;}
-else if(VELx < 0){VELx+=0.5;} //slowes down movement
-y+=VELy; //moves vertically
-if(place_meeting(x,y,oWall))
-{
-	while(place_meeting(x,y,oWall))
-	{
-		y+=sign(-VELy); //if colliding, move back
-	}
-}
-if(VELy > 0){VELy-=0.5;}
-else if(VELy < 0){VELy+=0.5;} //slows down movement
+velX = 0;
+velY = 0;
+
+left = keyboard_check(ord("A"));
+right = keyboard_check(ord("D"));
+up = keyboard_check(ord("W"));
+down = keyboard_check(ord("S"));
+
+if(left and not right) 
+	velX = -SPEED;
+	
+if(right and not left) 
+	velX = SPEED;
+	
+if(up and not down) 
+	velY = -SPEED;
+	
+if(down and not up) 
+	velY = SPEED;
+	
+if(!place_meeting(x + velX, y, oWall))
+	x += velX;
+
+if(!place_meeting(x, y + velY, oWall))
+	y += velY;

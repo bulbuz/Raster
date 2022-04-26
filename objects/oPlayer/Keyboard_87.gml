@@ -1,4 +1,0 @@
-if(VELy > -maxspeed)
-{
-	VELy--;	
-}

@@ -1,5 +1,0 @@
-if(VELx > -maxspeed)
-{
-	VELx--;	
-}
-
