@@ -7,25 +7,21 @@ up = keyboard_check(ord("W"));
 down = keyboard_check(ord("S"));
 run = keyboard_check(vk_shift);
 
-SPEED = (run ? 4 : 3);
+SPEED = (run ? MAX_SPEED : NORMAL_SPEED);
 DIASPEED = sqrt(SPEED*2);
 
 if(left and down and not right and not up)
-{
-	velX = -DIASPEED; velY = DIASPEED;
-}	
+	velX = -DIASPEED, velY = DIASPEED;
+
 else if(left and up and not right and not down)
-{
-	velX = -DIASPEED; velY = -DIASPEED;
-}	
+	velX = -DIASPEED, velY = -DIASPEED;
+
 else if(right and up and not left and not down)
-{
-	velX = DIASPEED; velY = -DIASPEED;
-}	
+	velX = DIASPEED, velY = -DIASPEED;
+
 else if(right and down and not left and not up)
-{
-	velX = DIASPEED; velY = DIASPEED;
-}
+	velX = DIASPEED, velY = DIASPEED;
+
 else if(left and not right) 
 	velX = -SPEED;
 	
