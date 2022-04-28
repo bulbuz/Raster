@@ -1,5 +1,5 @@
 
-// Movement Variables
+// Movement
 // -----------------------
 MAX_SPEED = 5;
 NORMAL_SPEED = 3;
@@ -12,6 +12,8 @@ right = 0;
 left = 0;
 up = 0;
 down = 0;
-// -----------------------
 
+// Combat 
+// -----------------------
 hearts = 3;
+attacking = false;

@@ -1,3 +1,7 @@
+
+
+// MOVEMENT STUFF
+// ----------------------------------
 velX = 0;
 velY = 0;
 
@@ -29,9 +33,19 @@ else if(up and not down)
 	
 else if(down and not up) 
 	velY = SPEED;
-	
+	 
 if(!place_meeting(x + velX, y, oWall))
 	x += velX;
 
 if(!place_meeting(x, y + velY, oWall))
 	y += velY;
+	
+
+// ATTACK
+// ----------------------------------
+
+attacking = keyboard_check_pressed(vk_space);
+if(attacking) {
+	instance_create_layer(x,y,"Instances", oSwordHitbox);
+	attacking = false;
+}
