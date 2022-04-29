@@ -22,17 +22,13 @@ else if(right and up and not left and not down) { velX = DIASPEED; velY = -DIASP
 
 else if(right and down and not left and not up) { velX = DIASPEED; velY = DIASPEED; }
 
-else if(left and not right) 
-	velX = -SPEED;
+else if(left and not right) { velX = -SPEED; sprite_index = sPlayerLeft; }
 	
-else if(right and not left) 
-	velX = SPEED;
+else if(right and not left) { velX = SPEED; sprite_index = sPlayerRight; }
 	
-else if(up and not down) 
-	velY = -SPEED;
+else if(up and not down) { velY = -SPEED; sprite_index = sPlayerBack; }
 	
-else if(down and not up) 
-	velY = SPEED;
+else if(down and not up) { velY = SPEED; sprite_index = sPlayerFront; }
 	 
 if(!place_meeting(x + velX, y, oWall))
 	x += velX;
