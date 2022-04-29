@@ -12,7 +12,7 @@ down = keyboard_check(ord("S"));
 run = keyboard_check(vk_shift);
 
 SPEED = (run ? MAX_SPEED : NORMAL_SPEED);
-DIASPEED = sqrt(SPEED*2);
+DIASPEED = sqrt(2*SPEED*SPEED)/2;
 
 if(left and down and not right and not up) { velX = -DIASPEED; velY = DIASPEED; }
 

@@ -1,2 +1,1 @@
-VEL = 2;
-hearts = 3;
+VEL = 2;hearts = 3;
