@@ -3,16 +3,16 @@ right = keyboard_check(vk_right);
 up = keyboard_check(vk_up);
 down = keyboard_check(vk_down);
 
-if(left and down and not right and not up) { rotation = -45; }
+if(left and down and not right and not up) { rotation = 315; }
 
-else if(left and up and not right and not down) { rotation = -135; }
+else if(left and up and not right and not down) { rotation = 225; }
 
 else if(right and up and not left and not down) { rotation = 135; }
 
 else if(right and down and not left and not up) { rotation = 45; }
 
 else if(left and not right) 
-	rotation = -90;
+	rotation = 270;
 	
 else if(right and not left) 
 	rotation = 90;
