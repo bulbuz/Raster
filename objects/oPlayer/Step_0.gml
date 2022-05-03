@@ -10,17 +10,6 @@ up = keyboard_check(ord("W"));
 down = keyboard_check(ord("S"));
 run = keyboard_check(vk_shift);
 
-// LEFT = 1 RIGHT = 2 UP = 3 DOWN = 4
-
-if(left)
-	last_faced = 1;
-else if(right)
-	last_faced = 2;
-else if(up)
-	last_faced = 3;
-else if(down)
-	last_faced = 4;
-
 SPEED = (run ? MAX_SPEED : NORMAL_SPEED);
 DIASPEED = sqrt(2*SPEED*SPEED)/2;
 
