@@ -4,6 +4,7 @@
     {"id":{"name":"oSwordHitbox","path":"objects/oSwordHitbox/oSwordHitbox.yy",},"order":2,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":2,},
     {"id":{"name":"sPlayerBack","path":"sprites/sPlayerBack/sPlayerBack.yy",},"order":5,},
+    {"id":{"name":"oAstar","path":"objects/oAstar/oAstar.yy",},"order":13,},
     {"id":{"name":"sHeart","path":"sprites/sHeart/sHeart.yy",},"order":8,},
     {"id":{"name":"oEnemySlime","path":"objects/oEnemySlime/oEnemySlime.yy",},"order":1,},
     {"id":{"name":"sGrassStone","path":"sprites/sGrassStone/sGrassStone.yy",},"order":1,},
@@ -58,7 +59,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.625",
+    "IDEVersion": "2022.3.0.624",
   },
   "resourceVersion": "1.5",
   "name": "RPG",
