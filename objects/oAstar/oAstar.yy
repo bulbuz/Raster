@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sEnemy",
+    "path": "sprites/sEnemy/sEnemy.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -25,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "oAstar",

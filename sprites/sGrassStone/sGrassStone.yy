@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Enviornment",
+    "path": "folders/Sprites/Enviornment.yy",
   },
   "resourceVersion": "1.0",
   "name": "sGrassStone",
