@@ -12,7 +12,7 @@ for(a=0;a<room_width/64;a++;)
 		checked[a][b] = false;
 		f[a][b] = 999999;
 		g[a][b] = 999999;
-		h[a][b] = sqrt(power(floor(oPlayer.x/64)-a,2)+power(floor(oPlayer.y/64)-b,2));
+		h[a][b] = power(floor(oPlayer.x/64)-a,2)+power(floor(oPlayer.y/64)-b,2);
 	}
 }
 
