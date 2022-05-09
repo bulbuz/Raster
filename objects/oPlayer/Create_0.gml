@@ -19,3 +19,6 @@ last_faced = 4;
 // -----------------------
 hearts = 3;
 attacking = false;
+
+// Collectables
+coins = 0;

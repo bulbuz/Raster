@@ -71,7 +71,6 @@ if(attacking) {
 	attacking = false;
 }
 
-// HEALTH
+// Collectables
 // ----------------------------------
-
 
