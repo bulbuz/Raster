@@ -5,3 +5,7 @@ function move()
 	if(!place_meeting(x, y+velY, oWall))
 		y+=velY;
 }
+
+function drop() {
+	
+}

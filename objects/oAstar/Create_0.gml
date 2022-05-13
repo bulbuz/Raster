@@ -56,7 +56,7 @@ function pathFinder(CORDX,CORDY)
 		{
 			if(TARGET > g[CORDX+a][CORDY+b] and checked[CORDX+a][CORDY+b] == true)
 			{
-				//if g = 0 aka at starting position, return direction enemy chall walk
+				//if g = 0 aka at starting position, return direction enemy shall walk
 				if(g[CORDX+a][CORDY+b] == 0)
 					return 10*a+b
 				TARGET = g[CORDX+a][CORDY+b];
