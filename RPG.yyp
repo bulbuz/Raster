@@ -16,6 +16,8 @@
     {"id":{"name":"music","path":"sounds/music/music.yy",},"order":0,},
     {"id":{"name":"oEnemyRandom","path":"objects/oEnemyRandom/oEnemyRandom.yy",},"order":0,},
     {"id":{"name":"oGameMannager","path":"objects/oGameMannager/oGameMannager.yy",},"order":13,},
+    {"id":{"name":"oPushBlock","path":"objects/oPushBlock/oPushBlock.yy",},"order":2,},
+    {"id":{"name":"sPushBlock","path":"sprites/sPushBlock/sPushBlock.yy",},"order":3,},
     {"id":{"name":"sPlayerLeft","path":"sprites/sPlayerLeft/sPlayerLeft.yy",},"order":2,},
     {"id":{"name":"sSwordHitbox","path":"sprites/sSwordHitbox/sSwordHitbox.yy",},"order":4,},
     {"id":{"name":"sPlayerRight","path":"sprites/sPlayerRight/sPlayerRight.yy",},"order":3,},
@@ -67,7 +69,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.625",
+    "IDEVersion": "2022.3.0.624",
   },
   "resourceVersion": "1.5",
   "name": "RPG",
