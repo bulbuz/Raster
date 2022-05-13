@@ -1,6 +1,7 @@
-VELX = 0;
-VELY = 0;
+velX = 0;
+velY = 0;
 SPEED = 2;
+DIASPEED = sqrt(SPEED*SPEED*2)/2
 TARGETX = 0;
 TARGETY = 0;
 

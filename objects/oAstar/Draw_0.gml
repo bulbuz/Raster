@@ -26,21 +26,21 @@ draw_self();
 DIR = pathFind(floor(x/64),floor(y/64));
 //translates to movement
 if(DIR == 10)
-	{VELX = -1; VELY = 0;}
+	{velX = -1*SPEED; velY = 0;}
 else if(DIR == -10)
-	{VELX = 1; VELY = 0;}
+	{velX = 1*SPEED; velY = 0;}
 else if(DIR == 1)
-	{VELX = 0; VELY = -1;}
+	{velX = 0; velY = -1*SPEED;}
 else if(DIR == -1)
-	{VELX = 0; VELY = 1;}
+	{velX = 0; velY = 1*SPEED;}
 else if(DIR == 11)
-	{VELX = -1; VELY = -1;}
+	{velX = -1*DIASPEED; velY = -1*DIASPEED;}
 else if(DIR == -11)
-	{VELX = 1; VELY = 1;}
+	{velX = 1*DIASPEED; velY = 1*DIASPEED;}
 else if(DIR == 9)
-	{VELX = -1; VELY = 1;}
+	{velX = -1*DIASPEED; velY = 1*DIASPEED;}
 else if(DIR == -9)
-	{VELX = 1; VELY = -1;}
+	{velX = 1*DIASPEED; velY = -1*DIASPEED;}
 else
-	{VELX = 0; VELY = 0;}
+	{velX = 0; velY = 0;}
 

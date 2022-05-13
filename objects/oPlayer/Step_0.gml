@@ -31,11 +31,7 @@ else if(up and not down) { velY = -SPEED; sprite_index = sPlayerBack; last_faced
 	
 else if(down and not up) { velY = SPEED; sprite_index = sPlayerFront; last_faced = 4; }
 	 
-if(!place_meeting(x + velX, y, oWall))
-	x += velX;
-
-if(!place_meeting(x, y + velY, oWall))
-	y += velY;
+move();
 	
 
 // ATTACK

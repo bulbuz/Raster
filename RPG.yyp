@@ -16,6 +16,7 @@
     {"id":{"name":"music","path":"sounds/music/music.yy",},"order":0,},
     {"id":{"name":"oEnemyRandom","path":"objects/oEnemyRandom/oEnemyRandom.yy",},"order":0,},
     {"id":{"name":"oGameMannager","path":"objects/oGameMannager/oGameMannager.yy",},"order":13,},
+    {"id":{"name":"commonTasks","path":"scripts/commonTasks/commonTasks.yy",},"order":0,},
     {"id":{"name":"oPushBlock","path":"objects/oPushBlock/oPushBlock.yy",},"order":2,},
     {"id":{"name":"sPushBlock","path":"sprites/sPushBlock/sPushBlock.yy",},"order":3,},
     {"id":{"name":"sPlayerLeft","path":"sprites/sPlayerLeft/sPlayerLeft.yy",},"order":2,},
