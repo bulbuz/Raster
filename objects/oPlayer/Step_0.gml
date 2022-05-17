@@ -39,9 +39,10 @@ move();
 
 // LEFT = 1 RIGHT = 2 UP = 3 DOWN = 4
 
+attackCooldown --;
 attacking = keyboard_check_pressed(vk_space);
-if(attacking) {
-	instance_create_layer(x,y,"Instances", oSwordHitbox);
+if(attacking and attackCooldown < 0) {
+	instance_create_layer(x,y,"PlayerLayer", oSwordHitbox);
 	
 	// Set attack to where the player is facing
 	switch(last_faced) {
@@ -64,6 +65,7 @@ if(attacking) {
 			
 	}
 	
+	attackCooldown = 30;
 	attacking = false;
 }
 
