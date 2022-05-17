@@ -1,7 +1,6 @@
-x+=VEL;
-
-if(place_meeting(x,y,oWall))
-	VEL *= -1;
+if(place_meeting(x+velX,y,oWall))
+	velX *= -1;
+move();
 
 if(hearts <= 0)
 	instance_destroy(self)
