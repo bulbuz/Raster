@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Enviornment",
-    "path": "folders/Sprites/Enviornment.yy",
+    "name": "PushBlock",
+    "path": "folders/Sprites/Enviornment/PushBlock.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPushBlock",
