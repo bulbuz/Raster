@@ -3,6 +3,7 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"SChest","path":"sprites/SChest/SChest.yy",},"order":4,},
     {"id":{"name":"oSwordHitbox","path":"objects/oSwordHitbox/oSwordHitbox.yy",},"order":2,},
+    {"id":{"name":"particles","path":"scripts/particles/particles.yy",},"order":1,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"sPlayerBack","path":"sprites/sPlayerBack/sPlayerBack.yy",},"order":0,},
     {"id":{"name":"oAstar","path":"objects/oAstar/oAstar.yy",},"order":2,},

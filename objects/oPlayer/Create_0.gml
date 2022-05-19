@@ -1,3 +1,6 @@
+// Other
+//------------------------
+frame = 0;
 
 // Movement
 // -----------------------
@@ -23,3 +26,6 @@ attackCooldown = 0;
 
 // Collectables
 coins = 0;
+
+//vissuals
+particleAmount = 50; //percent between 0 and 100
