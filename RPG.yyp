@@ -13,6 +13,7 @@
     {"id":{"name":"sPushBlockRight","path":"sprites/sPushBlockRight/sPushBlockRight.yy",},"order":2,},
     {"id":{"name":"sPushBlockLeft","path":"sprites/sPushBlockLeft/sPushBlockLeft.yy",},"order":1,},
     {"id":{"name":"sGrassStone","path":"sprites/sGrassStone/sGrassStone.yy",},"order":0,},
+    {"id":{"name":"oEnemySlimePro","path":"objects/oEnemySlimePro/oEnemySlimePro.yy",},"order":3,},
     {"id":{"name":"oChest","path":"objects/oChest/oChest.yy",},"order":3,},
     {"id":{"name":"oGrassSingleTile","path":"objects/oGrassSingleTile/oGrassSingleTile.yy",},"order":4,},
     {"id":{"name":"sPlayerFront","path":"sprites/sPlayerFront/sPlayerFront.yy",},"order":1,},
@@ -32,6 +33,8 @@
     {"id":{"name":"sSwordHitbox","path":"sprites/sSwordHitbox/sSwordHitbox.yy",},"order":4,},
     {"id":{"name":"sPlayerRight","path":"sprites/sPlayerRight/sPlayerRight.yy",},"order":3,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":0,},
+    {"id":{"name":"oSlimeShot","path":"objects/oSlimeShot/oSlimeShot.yy",},"order":4,},
+    {"id":{"name":"sSlimeShot","path":"sprites/sSlimeShot/sSlimeShot.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
