@@ -10,3 +10,4 @@ alarm_set(1,1);
 //other shit
 //----------------------------------------
 hearts = 5;
+shotDelay=0;

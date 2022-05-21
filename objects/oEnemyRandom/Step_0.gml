@@ -1,6 +1,7 @@
-velX = dirX*SPEED;
-velY = dirY*SPEED;
+standardMove();
+standardShot();
 
-move();
+if(hearts <= 0)
+		instance_destroy(self);
 
 
