@@ -10,19 +10,24 @@ function grassParticles(xOne,xTwo,yOne,yTwo,percent)
 			ran = irandom_range(0,100);
 			if(percent*sin(a*pi/xLen)*sin(b*pi/yLen)>ran)
 			{
+				offsetX = 0;
+				offsetY = 0;
 				draw_circle(xOne+a,yOne+b,1,false);
 				if(ran < 60)
 				{
-					draw_circle_color(xOne+a,yOne+b+1,1,#3F9E59,#3F9E59,false);
+					offsetY = 1;
 				}
 				else if(ran < 80)
 				{
-					draw_circle_color(xOne+a+1,yOne+b+1,1,#3F9E59,#3F9E59,false);
+					offsetX = 1;
+					offsetY = 1;
 				}
 				else
 				{
-					draw_circle_color(xOne+a-1,yOne+b+1,1,#3F9E59,#3F9E59,false);
+					offsetX = -1;
+					offsetY = 1;
 				}
+				draw_circle_color(xOne+a+offsetX,yOne+b+offsetY,1,#3F9E59,#3F9E59,false);
 			}
 		}
 	}

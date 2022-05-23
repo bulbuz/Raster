@@ -37,7 +37,7 @@ move();
 
 // LEFT = 1 RIGHT = 2 UP = 3 DOWN = 4
 
-attackCooldown --;
+attackCooldown--;
 attacking = keyboard_check_pressed(vk_space);
 if(attacking and attackCooldown < 0) {
 	instance_create_layer(x,y,"PlayerLayer", oSwordHitbox);
