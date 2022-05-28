@@ -29,4 +29,4 @@ coins = 0;
 //visuals
 particleAmount = 50; //percent between 0 and 100
 grassTile = instance_create_layer(x,y,"grassAnimation",oGrassSingleTile);
-grassTile.target = inst_91239BE;
+grassTile.target = self;
