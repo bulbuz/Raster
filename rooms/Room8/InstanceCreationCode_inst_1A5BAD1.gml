@@ -1,3 +1,3 @@
-target = Room1;
+target = Room7;
 offsetX = 0;
 offsetY = -1280;

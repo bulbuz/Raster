@@ -30,3 +30,6 @@ coins = 0;
 particleAmount = 50; //percent between 0 and 100
 grassTile = instance_create_layer(x,y,"grassAnimation",oGrassSingleTile);
 grassTile.target = self;
+
+//Start Setup
+alarm_set(0,1);
