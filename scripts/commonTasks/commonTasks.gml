@@ -38,6 +38,21 @@ function drawHearts(oreginX,oreginY,center,scale)
 	}
 }
 
+function playerCheckForDmg()
+{
+	if(
+	dmgCooldown < 0 and
+	(place_meeting(x,y,oSlimeBlue) or
+	place_meeting(x,y,oSlimeRed) or
+	place_meeting(x,y,oSlimeGreen) or
+	place_meeting(x,y,oLazerBeam) or
+	place_meeting(x,y,oSlimeShot)))
+	{
+		hearts--;
+		dmgCooldown = 90;
+	}
+}
+
 function drop() {
 
 }

@@ -22,6 +22,7 @@ MAX_ITEMS = 25;
 hearts = 3;
 attacking = false;
 attackCooldown = 0;
+dmgCooldown = 0;
 
 // Collectables
 coins = 0;

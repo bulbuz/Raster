@@ -26,3 +26,14 @@ function standardShot()
 	}
 	shotDelay--;
 }
+
+function enemyCheckForDmg()
+{
+	if(dmgCooldown < 0 and
+	(place_meeting(x,y,oSwordHitbox) or
+	place_meeting(x,y,oLazerBeam)))
+	{
+		dmgCooldown = 30;
+		hearts--;
+	}
+}

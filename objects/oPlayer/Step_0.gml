@@ -67,6 +67,9 @@ if(attacking and attackCooldown < 0) {
 	attacking = false;
 }
 
+dmgCooldown--;
+playerCheckForDmg();
+
 // Collectables
 // ----------------------------------
 
