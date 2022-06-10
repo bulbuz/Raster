@@ -23,20 +23,27 @@ switch(image_angle-floor(image_angle/360)*360)
 
 function lazerOn()
 {
-	for(a=1;a<999;a++)
+	for(a=0;a<999;a++)
 	{
 		if(!colission(x+dirX*a*64,y+dirY*a*64))
 		{
 			beams[a] = instance_create_layer(x+dirX*a*64,y+dirY*a*64,"Instances",oLazerBeam);
+			beams[a].creator = self;
+			if(a==0)
+				beams[a].image_alpha = 0;
 		}
 		else break;
 	}
 }
 
-function lazerOff()
+function lazerOff(restart)
 {
-	for(a=array_length(beams)-1;a>0;a--)
+	for(a=array_length(beams)-1;a>=0;a--)
 	{
 		instance_destroy(beams[a]);
 	}
+	if(restart==true)
+		lazerOn();
 }
+
+lazerOn();
