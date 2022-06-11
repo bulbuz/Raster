@@ -155,6 +155,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oTeleporter","path":"objects/oTeleporter/oTeleporter.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1248.0,"y":576.0,"resourceVersion":"1.0","name":"inst_2DC3A2CE","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oTeleporter","path":"objects/oTeleporter/oTeleporter.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":32.0,"resourceVersion":"1.0","name":"inst_7DD9E7DC","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oLazerShooter","path":"objects/oLazerShooter/oLazerShooter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":864.0,"resourceVersion":"1.0","name":"inst_1DEED387","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oSlimeAstar","path":"objects/oSlimeAstar/oSlimeAstar.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":480.0,"resourceVersion":"1.0","name":"inst_2BB8405D","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":64,"gridY":64,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"grassAnimation","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tGrassStone","path":"tilesets/tGrassStone/tGrassStone.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":20,"SerialiseHeight":20,"TileSerialiseData":[
@@ -324,6 +325,7 @@
     {"name":"inst_2DC3A2CE","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7DD9E7DC","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1DEED387","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_2BB8405D","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
