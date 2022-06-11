@@ -1,4 +1,0 @@
-//movement and colissionmove();
-
-
-
