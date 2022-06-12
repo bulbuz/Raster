@@ -33,7 +33,7 @@
     "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSlimeAstar",
+  "name": "oSlimeRed",
   "tags": [],
   "resourceType": "GMObject",
 }
