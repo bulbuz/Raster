@@ -3,6 +3,8 @@
 MAX_SPEED = 5;
 NORMAL_SPEED = 3;
 SPEED = NORMAL_SPEED;
+dirX = 0;
+dirY = 0;
 velX = 0;
 velY = 0;
 
