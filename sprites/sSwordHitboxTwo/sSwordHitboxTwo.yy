@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 29,
-  "bbox_right": 98,
-  "bbox_top": 102,
-  "bbox_bottom": 127,
+  "bbox_left": 28,
+  "bbox_right": 105,
+  "bbox_top": 76,
+  "bbox_bottom": 107,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d95adbac-4788-4fef-b598-bfc06ae0746a","path":"sprites/sSwordHitbox/sSwordHitbox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d95adbac-4788-4fef-b598-bfc06ae0746a","path":"sprites/sSwordHitbox/sSwordHitbox.yy",},"LayerId":{"name":"90acc552-3fcf-42aa-8487-b905a02b66e3","path":"sprites/sSwordHitbox/sSwordHitbox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sSwordHitbox","path":"sprites/sSwordHitbox/sSwordHitbox.yy",},"resourceVersion":"1.0","name":"d95adbac-4788-4fef-b598-bfc06ae0746a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d95adbac-4788-4fef-b598-bfc06ae0746a","path":"sprites/sSwordHitboxTwo/sSwordHitboxTwo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d95adbac-4788-4fef-b598-bfc06ae0746a","path":"sprites/sSwordHitboxTwo/sSwordHitboxTwo.yy",},"LayerId":{"name":"90acc552-3fcf-42aa-8487-b905a02b66e3","path":"sprites/sSwordHitboxTwo/sSwordHitboxTwo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sSwordHitboxTwo","path":"sprites/sSwordHitboxTwo/sSwordHitboxTwo.yy",},"resourceVersion":"1.0","name":"d95adbac-4788-4fef-b598-bfc06ae0746a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sSwordHitbox","path":"sprites/sSwordHitbox/sSwordHitbox.yy",},
+    "spriteId": {"name":"sSwordHitboxTwo","path":"sprites/sSwordHitboxTwo/sSwordHitboxTwo.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"536a189b-0781-4a67-a5b8-9be4f7e78ed9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d95adbac-4788-4fef-b598-bfc06ae0746a","path":"sprites/sSwordHitbox/sSwordHitbox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"536a189b-0781-4a67-a5b8-9be4f7e78ed9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d95adbac-4788-4fef-b598-bfc06ae0746a","path":"sprites/sSwordHitboxTwo/sSwordHitboxTwo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sSwordHitbox","path":"sprites/sSwordHitbox/sSwordHitbox.yy",},
+    "parent": {"name":"sSwordHitboxTwo","path":"sprites/sSwordHitboxTwo/sSwordHitboxTwo.yy",},
     "resourceVersion": "1.4",
-    "name": "sSwordHitbox",
+    "name": "sSwordHitboxTwo",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -93,11 +93,11 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "weapons",
+    "path": "folders/Sprites/weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sSwordHitbox",
+  "name": "sSwordHitboxTwo",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sSwordHitbox",
-    "path": "sprites/sSwordHitbox/sSwordHitbox.yy",
+    "name": "sSwordHitboxTwo",
+    "path": "sprites/sSwordHitboxTwo/sSwordHitboxTwo.yy",
   },
   "solid": false,
   "visible": true,

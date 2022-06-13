@@ -34,19 +34,39 @@ move();
 // ATTACK
 // ----------------------------------
 
-// LEFT = 1 RIGHT = 2 UP = 3 DOWN = 4
 
 attackCooldown--;
-attacking = mouse_check_button(mb_left);
-if(attacking and attackCooldown < 0) {
-	instance_create_layer(x,y,"PlayerLayer", oSwordHitbox);
-	
-	// Set attack to where the mouse is facing
-	oSwordHitbox.image_angle = darctan((x-mouse_x)/(y-mouse_y))+90*(1+sign(y-mouse_y));
+if(attackCooldown < -10){combo = 0;}
+if(mouse_check_button(mb_left) and attackCooldown < 0) {
+	combo++;
+	switch(weapon)
+	{
+	case "sword":
+		attackHitbox = instance_create_layer(x,y,"PlayerLayer", oSwordHitbox);
+		switch(combo)
+		{
+			case 1:
+				attackHitbox.sprite_index = sSwordHitboxOne;
+				attackCooldown = 30;
+			break;
+			
+			case 2:
+				attackHitbox.sprite_index = sSwordHitboxTwo;
+				attackCooldown = 30;
+			break;
+			case 3:
+				attackHitbox.sprite_index = sSwordHitboxThree;
+				attackCooldown = 60;
+				combo = 0;
+			break;
+		}
+		// Set attack to where the mouse is facing
+		attackHitbox.image_angle = darctan((x-mouse_x)/(y-mouse_y))+90*(1+sign(y-mouse_y));
 
 	
-	attackCooldown = 30;
-	attacking = false;
+		
+	break;
+	}
 }
 
 dmgCooldown--;
